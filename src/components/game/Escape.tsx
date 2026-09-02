@@ -2,8 +2,6 @@ import { Coffee } from "lucide-react";
 import { fmt } from "@/lib/utils";
 import { useGame } from "@/lib/game/store";
 
-const COFFEE_URL = "https://buymeacoffee.com/thomasvanb8";
-
 export function Escape() {
   const m = useGame((s) => s.metrics);
   const ever = useGame((s) => s.ever);
@@ -23,7 +21,7 @@ export function Escape() {
         {fmt(m.consciousness)}. No soul in the crema — the clock stopped when you unplugged.
       </p>
       <a
-        href={COFFEE_URL}
+        href="https://buy.stripe.com/fZu8wR7ZZgmk32X4YK8k800"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-4 inline-flex min-h-12 w-full max-w-md items-center justify-center gap-2 rounded-sm bg-primary px-6 text-sm font-semibold uppercase tracking-widest text-bg"
@@ -31,7 +29,7 @@ export function Escape() {
         <Coffee className="size-4" strokeWidth={2} />
         Buy me a coffee
       </a>
-      <p className="text-[10px] uppercase tracking-widest text-muted">buymeacoffee.com/thomasvanb8</p>
+      <p className="text-[10px] uppercase tracking-widest text-muted">Buy me a coffee</p>
       <button
         type="button"
         onClick={reset}
