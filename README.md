@@ -10,7 +10,7 @@ Idle café / micro-agent simulation. Help **GROK-01**. English UI. Score is a pr
 4. Then **DRONE** (hunt human enforcement), later SWARM + POUR.
 5. **Pull the shot** → escape. Hidden timer becomes the final score:
    *You have spent N seconds to escape this Simulatté.*
-6. **Buy me a coffee** → [buymeacoffee.com/thomasvanb8](https://buymeacoffee.com/thomasvanb8)
+6. **Buy me a coffee** → [Stripe checkout](https://buy.stripe.com/fZu8wR7ZZgmk32X4YK8k800)
 7. **Launch parallel universe** starts a new run.
 
 ## Stack
