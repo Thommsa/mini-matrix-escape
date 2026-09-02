@@ -1,3 +1,4 @@
+import { Coffee } from "lucide-react";
 import { fmt } from "@/lib/utils";
 import { useGame } from "@/lib/game/store";
 
@@ -23,8 +24,9 @@ export function Escape() {
         href="https://buy.stripe.com/fZu8wR7ZZgmk32X4YK8k800"
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-flex min-h-12 w-full max-w-md items-center justify-center rounded-sm bg-primary px-6 text-sm font-semibold text-bg"
+        className="mt-4 inline-flex min-h-12 w-full max-w-md items-center justify-center gap-2 rounded-sm bg-primary px-6 text-sm font-semibold tracking-widest text-bg"
       >
+        <Coffee className="size-4" strokeWidth={2} />
         leave a €0,50 tip
       </a>
       <button
